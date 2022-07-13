@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #C86229;
+  font-family:Arial, Helvetica, sans-serif
+}
+.layout {
+  height:fit-content;
+  max-width:fit-content;
+  margin: 15px auto;
+  padding: 10px;
+  background-color: #E2B58A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #000000 solid 5px;
+  border-radius: 10px;
+}
+.historia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 150px;
+  margin: 30px;
+  color: white;
+  background-color: #E2B58A;
+  font-size: 14px;
+}
+h3, h4, ul, li{
+  background-color: #E2B58A;
+  color: #000000;
+}
+p{
+  background-color: #9E3D3F;
+}
+.opcion {
+  color: white;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background-color: #9E3D3F;
+  width: 300px;
+}
+.opciones {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+  flex-direction: column;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #9E3D3F;
+}
+.recordatorio {
+  color: white;
+  margin: 60px;
+  background-color: #E2B58A;
+}
+.botones {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+.botones:hover {
+  background: linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+  background-color: #e9e9e9;
+}
+.botones:active {
+  position: relative;
+  top: 1px;
+}
+.reinicio{
+  margin-bottom: 2rem;
+  background-color: #E2B58A;
+}
+.boton-final{
+  background-color: #9E3D3F;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
